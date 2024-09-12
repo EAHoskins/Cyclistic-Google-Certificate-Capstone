@@ -1,0 +1,22 @@
+Data Source:
+Data was monthly Divvy trip data from 6/2023 to 5/2024.
+Data was composed of individual rides with information on time of ride, day of ride, start and stop locations, and membership status.
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
+Data cleaning in Excel 
+Each monthly Divvy file was cleaned in Excel in the following ways:
+	- Deleted columns: start_station_id, end_station_idj, start_station_name, and end_station_name
+	- Looked for blanks in the following columns: member_casual, ride_id, started_at, and ended_at. No blanks were foiund 
+	- Removed rows where end_lab and end_lng were blanks
+	- Created new column ride_length:
+		- subtracted end_at from start_at
+		- Converted cells to HH:MM:SS
+		- Checked for cells with negative values - none wree found
+		- for instances where start_at was before end_at, cells were switched 
+		- removed values where value was 0:00:00
+		- Removed ride_lengths where values were <24 hours
+	- Created column for day of the week using formula (=weekday(C2, 1))
+		- Confirmed data values were correct
+	- Split start_at and end_at by data and time. Deleted time columns (could not be read into SQL)
+	
+	
