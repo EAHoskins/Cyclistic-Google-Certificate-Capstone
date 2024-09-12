@@ -6,12 +6,12 @@ https://divvy-tripdata.s3.amazonaws.com/index.html
 Data cleaning in Excel 
 Each monthly Divvy file was cleaned in Excel in the following ways:
 	- Deleted columns: start_station_id, end_station_idj, start_station_name, and end_station_name
-	- Looked for blanks in the following columns: member_casual, ride_id, started_at, and ended_at. No blanks were foiund 
+	- Looked for blanks in the following columns: member_casual, ride_id, started_at, and ended_at. No blanks found 
 	- Removed rows where end_lab and end_lng were blanks
 	- Created new column ride_length:
 		- subtracted end_at from start_at
 		- Converted cells to HH:MM:SS
-		- Checked for cells with negative values - none wree found
+		- Checked for cells with negative values - none were found
 		- for instances where start_at was before end_at, cells were switched 
 		- removed values where value was 0:00:00
 		- Removed ride_lengths where values were <24 hours
@@ -19,4 +19,17 @@ Each monthly Divvy file was cleaned in Excel in the following ways:
 		- Confirmed data values were correct
 	- Split start_at and end_at by data and time. Deleted time columns (could not be read into SQL)
 	
+	
+Data cleaning in SQL
+	- Files were uploaded to BigQuery
+	- Files were combined (create_table.sql)
+	- New column called minute was extracted from ride_length (mincalc_weekday)
+	- Converted weekday values from intergers to the name of the weekday (mincalc_weekday)
+	- Inner join minute and day_of_week data to table (Join_min) 
+	
+	
+Exported table into Tableau for data visualization 
+
+
+	## add code to Join_min to show adding day of week to table, call name table 
 	
