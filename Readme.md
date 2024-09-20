@@ -1,14 +1,12 @@
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Cyclistic, a bike-share company, wants to maximize the number of annual memberships. Currently, customers can purchase a single ride or day pass (grouped as casual rider) or an annual membership. My goal was to analyze differences between casual riders and riders with memberships and provide recommendations on how to convert casual riders to riders with annual memberships. 
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Category 1:differences in ride time between members and casual riders ** 
+- **Category 2:differences in the number of rides between members and casual riders** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html ).
 
 Targed SQL queries regarding various business questions can be found here [link].
 
@@ -64,31 +62,6 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 
 [Visualization specific to category 2]
 
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
 
 
 
