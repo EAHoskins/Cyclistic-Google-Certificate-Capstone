@@ -35,19 +35,6 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
 # Insights Deep Dive
 ### Differences in ride time:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
-
-
-### Differences in the number of rides based on time of year:
-
 * **Casual riders had longer trips compared to members**The median ride time for casual riders was 12 minutes and 8 minutes for members. 
   
 * **Casual riders took longer rides in the summer.** By month, the range of median ride time for casual riders 7 minutes (January) and 14 minutes (July). Rides were longest June – September and shortest November – March. 
@@ -59,6 +46,19 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
 ![Ride length x day (2) (1)](https://github.com/user-attachments/assets/d6cde2e2-45bc-4b3f-8d4b-028456177c0b)
 
 ![Ride length x month (2)](https://github.com/user-attachments/assets/4e84e23a-ca01-4be1-9daf-345acca44032)
+
+
+### Differences in the number of rides based on time of year:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
 
 
 
