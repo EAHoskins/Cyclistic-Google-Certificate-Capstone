@@ -12,6 +12,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 
 
+
 # Data Structure & Initial Checks
 
 Cyclistic’s data was composed of ride data, with each table representing a month’s data from 6/2023 – 5/2024. The data recorded included start and end locations, start and end times/dates, if the rider was a casual rider or member, type of bicycle used. 
@@ -19,6 +20,7 @@ Cyclistic’s data was composed of ride data, with each table representing a mon
 Data can be accessed [here](https://divvy-tripdata.s3.amazonaws.com/index.html ).
 
 How the data was checked and cleaned can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/blob/main/Data_summary). 
+
 
 
 
@@ -48,6 +50,7 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
 ![Ride length x month (2)](https://github.com/user-attachments/assets/4e84e23a-ca01-4be1-9daf-345acca44032)
 
 
+
 ### Differences in the number of rides based on time of year:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
@@ -59,6 +62,7 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 1]
+
 
 
 
