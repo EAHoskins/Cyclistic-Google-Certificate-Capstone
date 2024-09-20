@@ -48,16 +48,18 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
 
 ### Differences in the number of rides based on time of year:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Casual riders had longer trips compared to members**The median ride time for casual riders was 12 minutes and 8 minutes for members. 
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Casual riders took longer rides in the summer.** By month, the range of median ride time for casual riders 7 minutes (January) and 14 minutes (July). Rides were longest June – September and shortest November – March. 
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Members varied less in their ride times throughout the year.** Members were more consistent in their median ride time, ranging from 7 minutes (November – March) to 10 minutes (July). 
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Rides were longer on weekends for both groups** While both groups took longer rides on average during the weekends, the difference between weekdays and weekend ride times were larger for casual riders. 
 
-[Visualization specific to category 2]
 
+![Ride length x day (2)](https://github.com/user-attachments/assets/cfca0a3b-5416-406c-828d-99c16af34ca4)
+
+![Ride length x month (2)](https://github.com/user-attachments/assets/4e84e23a-ca01-4be1-9daf-345acca44032)
 
 
 
