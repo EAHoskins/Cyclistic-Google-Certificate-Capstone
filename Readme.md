@@ -4,7 +4,7 @@ Cyclistic, a bike-share company, wants to maximize the number of annual membersh
 Insights and recommendations are provided on the following key areas:
 
 - **Differences in ride time between members and casual riders** 
-- **Differences in the number of rides between members and casual riders** 
+- **Differences in the number of rides based on time of year** 
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/tree/main/SQL_queries ).
 
@@ -26,13 +26,14 @@ How the data was checked and cleaned can be found [here](https://github.com/EAHo
 
 ### Overview of Findings
 
-There are 2 key differences between casual riders and members. First, the most rides for both casual riders and members took place during the warmest months. Second, casual riders take longer trips compared to members, especially during the summer. 
+Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while members took 3.31M rides and 39.07M minutes riding. There are 2 key differences between casual riders and members. First, the most rides for both casual riders and members took place during the warmest months. Second, casual riders take longer trips compared to members, especially during the summer. 
 
-![Dashboard 1 (5)](https://github.com/user-attachments/assets/39a28808-c699-45d9-8a14-42df6cdc3ed2)
+![Dashboard 1 (6)](https://github.com/user-attachments/assets/5709c05f-80cb-4ca1-8ac4-187bfd65d694)
+
 
 
 # Insights Deep Dive
-### Category 1:
+### Differences in ride time:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -45,7 +46,7 @@ There are 2 key differences between casual riders and members. First, the most r
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Differences in the number of rides based on time of year:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -62,17 +63,11 @@ There are 2 key differences between casual riders and members. First, the most r
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the Cyclistic to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Casual riders take longer trips than members, especially during the summer. **If there is a time limit on rides, consider removing the limit or making the limit longer.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Casual riders mostly ride during the warmer months and ride very little during winter months. **Consider making the membership cost effective for those who only ride during warm months or creating seasonal memberships.**
   
 
 
@@ -83,5 +78,3 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * Ride lengths were assumed to be between 00:00:01 and 24:59:59. 
   
 * Data that did not include location information (start_station, end_station) were removed from the analysis. 
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
