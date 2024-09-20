@@ -3,26 +3,22 @@ Cyclistic, a bike-share company, wants to maximize the number of annual membersh
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:differences in ride time between members and casual riders ** 
-- **Category 2:differences in the number of rides between members and casual riders** 
+- **Differences in ride time between members and casual riders** 
+- **Differences in the number of rides between members and casual riders** 
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html ).
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targed SQL queries regarding various business questions can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/tree/main/SQL_queries ).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/views/Divvy_17236726399830/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link ).
 
 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+Cyclistic’s data was composed of ride data, with each table representing a month’s data from 6/2023 – 5/2024. The data recorded included start and end locations, start and end times/dates, if the rider was a casual rider or member, type of bicycle used. 
 
-[Entity Relationship Diagram here]
+How the data was checked and cleaned can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/blob/main/Data_summary). 
 
 
 
@@ -30,10 +26,9 @@ The companies main database structure as seen below consists of four tables: tab
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+There are 2 key differences between casual riders and members. First, the most rides for both casual riders and members took place during the warmest months. Second, casual riders take longer trips compared to members, especially during the summer. 
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
+![Dashboard 1 (5)](https://github.com/user-attachments/assets/39a28808-c699-45d9-8a14-42df6cdc3ed2)
 
 
 # Insights Deep Dive
@@ -85,8 +80,8 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Ride lengths were assumed to be between 00:00:01 and 24:59:59. 
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Data that did not include location information (start_station, end_station) were removed from the analysis. 
   
 * Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
