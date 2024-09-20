@@ -56,8 +56,7 @@ Overall, casual riders took 1.81M rides and spent 36.81M minutes riding, while m
   
 * **Rides were longer on weekends for both groups** While both groups took longer rides on average during the weekends, the difference between weekdays and weekend ride times were larger for casual riders. 
 
-
-![Ride length x day (2)](https://github.com/user-attachments/assets/cfca0a3b-5416-406c-828d-99c16af34ca4)
+![Ride length x day (2) (1)](https://github.com/user-attachments/assets/d6cde2e2-45bc-4b3f-8d4b-028456177c0b)
 
 ![Ride length x month (2)](https://github.com/user-attachments/assets/4e84e23a-ca01-4be1-9daf-345acca44032)
 
