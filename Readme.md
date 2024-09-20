@@ -8,8 +8,6 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html ).
 
-Targed SQL queries regarding various business questions can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/tree/main/SQL_queries ).
-
 An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/views/Divvy_17236726399830/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link ).
 
 
@@ -17,6 +15,8 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 # Data Structure & Initial Checks
 
 Cyclistic’s data was composed of ride data, with each table representing a month’s data from 6/2023 – 5/2024. The data recorded included start and end locations, start and end times/dates, if the rider was a casual rider or member, type of bicycle used. 
+
+Data can be accessed [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/tree/main/SQL_queries ).
 
 How the data was checked and cleaned can be found [here](https://github.com/EAHoskins/Divvy-Google-Certificate-Capstone/blob/main/Data_summary). 
 
